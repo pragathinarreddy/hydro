@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* custom styles */
+
+/* desktopview */
+
+/* header */
+.container {
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 2rem;
+  margin: 2rem auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  background-color: rgba(95, 158, 160, 0.5);
+}
+
+.logo {
+  width: 5rem;
+}
+
+.nav p {
+  color:black;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  margin-top: 1.9rem;
+  font-weight: bold;
+
+}
+.blog {
+  color: green !important;
+}
+
+
+/* hero */
+.flex45 {
+  flex: 0 1 45%;
+  
+}
+.section {
+  background-color: rgba(210, 105, 30, 0.219);
+  margin-top: -2rem;
+}
+.arti {
+  padding: 2rem;
+  line-height: 1.5;
+}
+.hero_img{
+  border-radius: 2rem;
+}
+
+.btn {
+  background-color: green;
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+}
+
+/* blog */
+.pic1 {
+  color: black;
+}
+h2 {
+  text-align: center;
+}
+.flex25 {
+  flex: 0 1 25%;
+  width: 100%;
+}
+.gallery {
+}
+ .gallery img {
+  border-radius: 1rem;
+}
+.ourblog {
+  background-color: rgba(210, 105, 30, 0.322);
+}
+footer {
+  background-color: rgba(95, 158, 160, 0.425);
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+
+/* smallscreen */
+@media screen and (max-width : 768px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+  .flex45,.flex25 {
+    flex: 1 1 100%;
+  }
+
+}
+  
+
+  
